@@ -40,10 +40,12 @@ CuttleFix/
 ├── README.md                  # Ce fichier
 ├── CVE-2026-91403/
 │   ├── README.md              # Détails de la CVE et mode d'emploi
-│   ├── CVE-2026-91403_check.sh
-│   ├── CVE-2026-91403_patch.sh
-│   ├── CVE-2026-91403_check.ps1
-│   └── CVE-2026-91403_patch.ps1
+|   ├── Linux
+|   |   ├── CVE-2026-91403_check.sh
+|   |   └── CVE-2026-91403_patch.sh
+|   ├── Windows
+│   |   ├── CVE-2026-91403_check.ps1
+│   |   └── CVE-2026-91403_patch.ps1
 └── CVE-XXXX-XXXXX/            # Prochaines CVE...
 ```
 
